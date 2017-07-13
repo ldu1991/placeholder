@@ -1,0 +1,35 @@
+html {
+    padding: 100px;
+}
+
+.custom-input {
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+input {
+    padding-left: 15px;
+}
+
+label {
+    cursor: text;
+    margin: 0;
+    padding: 0;
+    left: 15px;
+    top: 27px;
+    position: absolute;
+    font-size: 14px;
+    color: #ccc;
+    font-weight: normal;
+    transition: all .3s ease;
+}
+
+label.active {
+    top: 0;
+    left: 0;
+    font-size: 12px;
+}
+
+label.active.focusIn {
+    color: #66afe9;
+}
